@@ -1,0 +1,60 @@
+.navbar{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 120px;
+    font-size: 18px;
+    
+}
+.navbar .logo{
+    width: 118px;
+    height:40px;
+    
+}
+a{
+    text-decoration: none;
+    
+}
+
+nav ul{list-style: none;}
+nav ul li{
+    display: inline-block;
+    padding: 0 15px;
+    transition: 0.5s;
+}
+
+ 
+nav ul li .active{
+    color: #DAD398;
+}
+nav ul li a:hover{
+    color: #DAD398;
+}
+.search-bar{
+    
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom:  1px solid #6E98A6;
+    
+}
+.search-bar input{
+    width: 302px;
+    border: none;
+    outline: none;
+}
+.search-bar img{
+    height: 20px;
+    width: 20px;
+    float: right;
+    cursor: pointer;
+}
+
+/* .logo:hover>.box{
+    opacity: 1;
+} */
+/* nav ul li:hover .box{
+    opacity: 1;
+} */

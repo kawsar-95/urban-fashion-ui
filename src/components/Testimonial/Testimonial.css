@@ -1,0 +1,96 @@
+.testimonial-container{
+    padding: 30px 90px 10px 90px;
+}
+.testimonial-container h4{
+    font-size: 22px;
+}
+.testimonial-container .title{
+    color: #DAD398;
+    font-size: 18px;
+    margin-bottom: -10px;
+}
+.divider{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    
+}
+
+.divider .arrow-btn{
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+    background-color:#6E98A6;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #ffffff;
+    
+    
+}
+ .divider .arrow-btn .icon{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    
+}
+.divider .details{
+    color: #767676;
+    font-size: 18px;
+    width: 351px;
+}
+.divider img{
+    width: 570px;
+    height: 270px;
+}
+.divider .text-content{
+    width: 451px;
+}
+.left{
+    position: relative;
+}
+ .heading{
+    font-size: 46px;
+}
+.left_quote{
+    background: #DAD398;
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    position: absolute;
+    right: 30px;
+    bottom: 190px;
+}
+.left_quote::before{
+        content:'\201c';
+        color: #ffffff;
+        font-size: 116px;
+        font-weight: 700;
+        position: absolute;
+        left: 10px;
+        bottom: -50px;
+}
+.right{
+    position: relative;
+    margin-top: 20px;
+}
+.right_quote{
+    background: #DAD398;
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    position: absolute;
+    right: 30px;
+    bottom: 315px;
+}
+.right_quote::before{
+        content:'\201c';
+        color: #ffffff;
+        font-size: 116px;
+        font-weight: 700;
+        position: absolute;
+        left: 10px;
+        bottom: -50px;
+}

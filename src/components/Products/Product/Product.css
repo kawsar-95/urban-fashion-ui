@@ -1,0 +1,22 @@
+.product-item h4{
+    font-size: 22px;
+}
+.product-item p{
+    font-size: 18px;
+}
+.product-item .btn{
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.product-item .btn:hover{
+    color: #DAD398;
+    text-decoration: none;
+}
+.product-item .current{
+    color: #B46254;
+}
+.product-item .previous{
+    color: #767676;
+    margin-left: 5px;
+}

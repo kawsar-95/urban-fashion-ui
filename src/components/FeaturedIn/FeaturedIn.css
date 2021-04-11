@@ -1,0 +1,36 @@
+.featured-container{
+    padding: 20px 10px;
+}
+.featured-container h3{
+    font-size: 42px;
+    text-align: center;
+}
+.featured-container .featured-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 120px;
+}
+.featured-item .img1{
+    width:101px;
+    height:63px;
+}
+.featured-item .img2{
+    width:88px;
+    height:84px;
+}
+.featured-item .img3{
+    width:108px;
+    height:63px;
+}
+.featured-item .img4{
+    width:128px;
+    height:51px;
+}
+.featured-item .img5{
+    width:122px;
+    height:41px;
+}
+.featured-item .img6{
+    width:113px;
+    height:44px;
+}

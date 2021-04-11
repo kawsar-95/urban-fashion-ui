@@ -1,0 +1,48 @@
+.header-main{
+    padding: 0 30px;
+    display: flex;
+    height: 500px;
+    position: relative;
+}
+.header-main_left{
+    width: 60%;
+}
+.header-main_right{
+    background: #6E98A6;
+    width: 40%;
+}
+.header-main_right h2{
+    font-size: 42px;
+    line-height: 56px;
+}
+.header-main_right p{
+    font-size: 16px;
+    line-height: 24px;
+}
+.header-main_right button{
+    background: #DAD398;
+    height: 60px;
+    width: 190px;
+    font-size: 24px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.header-main_right button:hover{
+    background: transparent;
+    color:#DAD398 ;
+    border: 2px solid #DAD398;
+} 
+.header-main_right .content{
+    padding: 50px 50px;
+}
+.header-main_right img{
+    width: 198px;
+    height: 198px;
+    position: absolute;
+    right: 50px;
+    bottom:5px
+}

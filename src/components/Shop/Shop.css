@@ -1,0 +1,40 @@
+.shop-container{
+    display: flex;
+    padding: 25px 115px 10px 135px;
+    height: 570px;
+    position: relative;
+}
+.shop-container .left{
+    width: 50%;
+    padding-right: 20px;
+}
+.shop-container .left img{
+    height: 270px;
+    width: 100%;
+}
+.shop-container .left .text1{
+    position: absolute;
+    bottom:90px;
+    left: 25px;
+    font-size: 30px;
+}
+.shop-container .left .text1 .heavy-text{
+     color: #DAD398;
+     
+}
+.shop-container .left .text2{
+    position: absolute;
+    bottom: 20px;
+    width: 250px;
+    font-size: 20px;
+    left: 25px;
+}
+.shop-container .right{
+    width: 50%;
+}
+.shop-container .right img{
+    height: 570px;
+    width: 100%;
+    margin-top: -18px;
+    margin-left: 10px;
+}
